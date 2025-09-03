@@ -1,0 +1,72 @@
+[
+    {
+        "timestamp": "2025-09-02T112056",
+        "user": "intern",
+        "action": "LOGIN_FAILED",
+        "details": "N/A from IP 102.39.0.1",
+        "result": "DENIED"
+    },
+    {
+        "timestamp": "2025-09-02T112101",
+        "user": "admin",
+        "action": "LOGIN_FAILED",
+        "details": "N/A from IP 192.123.32.12",
+        "result": "DENIED"
+    },
+    {
+        "timestamp": "2025-09-02T112106",
+        "user": "guest_user",
+        "action": "FILE_COPY",
+        "details": "Copied confidential.txt to /tmp from IP 192.123.32.12",
+        "result": "SUCCESS"
+    },
+    {
+        "timestamp": "2025-09-02T112111",
+        "user": "admin",
+        "action": "FILE_ACCESS",
+        "details": "Attempted confidential.txt from IP 192.123.32.12",
+        "result": "DENIED"
+    },
+    {
+        "timestamp": "2025-09-02T112116",
+        "user": "intern",
+        "action": "FILE_COPY",
+        "details": "Copied confidential.txt to /tmp from IP 142.329.219.2",
+        "result": "SUCCESS"
+    },
+    {
+        "timestamp": "2025-09-02T112121",
+        "user": "admin",
+        "action": "SUDO_ATTEMPT",
+        "details": "Tried sudo rm -rf /etc/passwd from IP 102.39.0.1",
+        "result": "DENIED"
+    },
+    {
+        "timestamp": "2025-09-02T112127",
+        "user": "intern",
+        "action": "LOGIN_SUCCESS",
+        "details": "N/A from IP 142.329.219.2",
+        "result": "SUCCESS"
+    },
+    {
+        "timestamp": "2025-09-02T112132",
+        "user": "admin",
+        "action": "LOGIN_FAILED",
+        "details": "N/A from IP 192.123.32.12",
+        "result": "DENIED"
+    },
+    {
+        "timestamp": "2025-09-02T112137",
+        "user": "guest_user",
+        "action": "FILE_COPY",
+        "details": "Copied confidential.txt to /tmp from IP 192.123.32.12",
+        "result": "SUCCESS"
+    },
+    {
+        "timestamp": "2025-09-02T112142",
+        "user": "guest_user",
+        "action": "FILE_ACCESS",
+        "details": "Attempted confidential.txt from IP 102.39.0.1",
+        "result": "DENIED"
+    }
+]

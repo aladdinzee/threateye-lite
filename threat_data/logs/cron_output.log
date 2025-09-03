@@ -38,3 +38,33 @@
 {'timestamp': '2025-09-01T170536', 'user': 'analyst', 'action': 'SUDO_ATTEMPT', 'details': 'Tried sudo rm -rf /etc/passwd from IP 192.123.32.12', 'result': 'DENIED'}
 {'timestamp': '2025-09-01T170541', 'user': 'guest_user', 'action': 'LOGIN_SUCCESS', 'details': 'N/A from IP 192.123.32.12', 'result': 'SUCCESS'}
 {'timestamp': '2025-09-01T170546', 'user': 'admin', 'action': 'FILE_COPY', 'details': 'Copied confidential.txt to /tmp from IP 192.123.32.12', 'result': 'SUCCESS'}
+{'timestamp': '2025-09-01T171001', 'user': 'admin', 'action': 'FILE_ACCESS', 'details': 'Attempted confidential.txt from IP 142.329.219.2', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171006', 'user': 'analyst', 'action': 'LOGIN_SUCCESS', 'details': 'N/A from IP 102.39.0.1', 'result': 'SUCCESS'}
+{'timestamp': '2025-09-01T171011', 'user': 'analyst', 'action': 'LOGIN_SUCCESS', 'details': 'N/A from IP 192.123.32.12', 'result': 'SUCCESS'}
+{'timestamp': '2025-09-01T171016', 'user': 'guest_user', 'action': 'LOGIN_SUCCESS', 'details': 'N/A from IP 192.123.32.12', 'result': 'SUCCESS'}
+{'timestamp': '2025-09-01T171021', 'user': 'admin', 'action': 'FILE_ACCESS', 'details': 'Attempted confidential.txt from IP 102.39.0.1', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171026', 'user': 'admin', 'action': 'FILE_ACCESS', 'details': 'Attempted confidential.txt from IP 192.123.32.12', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171031', 'user': 'intern', 'action': 'FILE_ACCESS', 'details': 'Attempted confidential.txt from IP 142.329.219.2', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171036', 'user': 'admin', 'action': 'FILE_COPY', 'details': 'Copied confidential.txt to /tmp from IP 102.39.0.1', 'result': 'SUCCESS'}
+{'timestamp': '2025-09-01T171041', 'user': 'analyst', 'action': 'SUDO_ATTEMPT', 'details': 'Tried sudo rm -rf /etc/passwd from IP 102.39.0.1', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171046', 'user': 'analyst', 'action': 'LOGIN_SUCCESS', 'details': 'N/A from IP 102.39.0.1', 'result': 'SUCCESS'}
+{'timestamp': '2025-09-01T171501', 'user': 'analyst', 'action': 'LOGIN_SUCCESS', 'details': 'N/A from IP 192.123.32.12', 'result': 'SUCCESS'}
+{'timestamp': '2025-09-01T171506', 'user': 'guest_user', 'action': 'SUDO_ATTEMPT', 'details': 'Tried sudo rm -rf /etc/passwd from IP 142.329.219.2', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171511', 'user': 'guest_user', 'action': 'FILE_ACCESS', 'details': 'Attempted confidential.txt from IP 142.329.219.2', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171516', 'user': 'admin', 'action': 'SUDO_ATTEMPT', 'details': 'Tried sudo rm -rf /etc/passwd from IP 102.39.0.1', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171521', 'user': 'guest_user', 'action': 'SUDO_ATTEMPT', 'details': 'Tried sudo rm -rf /etc/passwd from IP 192.123.32.12', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171526', 'user': 'guest_user', 'action': 'FILE_ACCESS', 'details': 'Attempted confidential.txt from IP 102.39.0.1', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171531', 'user': 'admin', 'action': 'SUDO_ATTEMPT', 'details': 'Tried sudo rm -rf /etc/passwd from IP 192.123.32.12', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171536', 'user': 'admin', 'action': 'LOGIN_FAILED', 'details': 'N/A from IP 142.329.219.2', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171541', 'user': 'analyst', 'action': 'FILE_ACCESS', 'details': 'Attempted confidential.txt from IP 102.39.0.1', 'result': 'DENIED'}
+{'timestamp': '2025-09-01T171546', 'user': 'analyst', 'action': 'FILE_COPY', 'details': 'Copied confidential.txt to /tmp from IP 142.329.219.2', 'result': 'SUCCESS'}
+{'timestamp': '2025-09-02T112056', 'user': 'intern', 'action': 'LOGIN_FAILED', 'details': 'N/A from IP 102.39.0.1', 'result': 'DENIED'}
+{'timestamp': '2025-09-02T112101', 'user': 'admin', 'action': 'LOGIN_FAILED', 'details': 'N/A from IP 192.123.32.12', 'result': 'DENIED'}
+{'timestamp': '2025-09-02T112106', 'user': 'guest_user', 'action': 'FILE_COPY', 'details': 'Copied confidential.txt to /tmp from IP 192.123.32.12', 'result': 'SUCCESS'}
+{'timestamp': '2025-09-02T112111', 'user': 'admin', 'action': 'FILE_ACCESS', 'details': 'Attempted confidential.txt from IP 192.123.32.12', 'result': 'DENIED'}
+{'timestamp': '2025-09-02T112116', 'user': 'intern', 'action': 'FILE_COPY', 'details': 'Copied confidential.txt to /tmp from IP 142.329.219.2', 'result': 'SUCCESS'}
+{'timestamp': '2025-09-02T112121', 'user': 'admin', 'action': 'SUDO_ATTEMPT', 'details': 'Tried sudo rm -rf /etc/passwd from IP 102.39.0.1', 'result': 'DENIED'}
+{'timestamp': '2025-09-02T112127', 'user': 'intern', 'action': 'LOGIN_SUCCESS', 'details': 'N/A from IP 142.329.219.2', 'result': 'SUCCESS'}
+{'timestamp': '2025-09-02T112132', 'user': 'admin', 'action': 'LOGIN_FAILED', 'details': 'N/A from IP 192.123.32.12', 'result': 'DENIED'}
+{'timestamp': '2025-09-02T112137', 'user': 'guest_user', 'action': 'FILE_COPY', 'details': 'Copied confidential.txt to /tmp from IP 192.123.32.12', 'result': 'SUCCESS'}
+{'timestamp': '2025-09-02T112142', 'user': 'guest_user', 'action': 'FILE_ACCESS', 'details': 'Attempted confidential.txt from IP 102.39.0.1', 'result': 'DENIED'}

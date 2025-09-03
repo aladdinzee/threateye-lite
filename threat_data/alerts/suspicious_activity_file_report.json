@@ -1,0 +1,208 @@
+{
+    "Total Alerts": 30,
+    "Alerts": [
+        {
+            "type": "Unauthorized Action",
+            "user": "intern",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 102.39.0.1",
+            "message": "intern attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "intern",
+            "action": "FILE_COPY",
+            "details": "Copied confidential.txt to /tmp from IP 192.123.32.12",
+            "message": "intern attempted FILE_COPY without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "analyst",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 102.39.0.1",
+            "message": "analyst attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "analyst",
+            "action": "FILE_COPY",
+            "details": "Copied confidential.txt to /tmp from IP 102.39.0.1",
+            "message": "analyst attempted FILE_COPY without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "guest_user",
+            "action": "FILE_ACCESS",
+            "details": "Attempted confidential.txt from IP 102.39.0.1",
+            "message": "guest_user attempted FILE_ACCESS without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "intern",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 142.329.219.2",
+            "message": "intern attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "guest_user",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 142.329.219.2",
+            "message": "guest_user attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "guest_user",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 192.123.32.12",
+            "message": "guest_user attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "analyst",
+            "action": "FILE_COPY",
+            "details": "Copied confidential.txt to /tmp from IP 192.123.32.12",
+            "message": "analyst attempted FILE_COPY without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "intern",
+            "action": "FILE_COPY",
+            "details": "Copied confidential.txt to /tmp from IP 192.123.32.12",
+            "message": "intern attempted FILE_COPY without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "guest_user",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 102.39.0.1",
+            "message": "guest_user attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "guest_user",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 142.329.219.2",
+            "message": "guest_user attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "guest_user",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 192.123.32.12",
+            "message": "guest_user attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "intern",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 192.123.32.12",
+            "message": "intern attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "analyst",
+            "action": "FILE_COPY",
+            "details": "Copied confidential.txt to /tmp from IP 192.123.32.12",
+            "message": "analyst attempted FILE_COPY without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "analyst",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 192.123.32.12",
+            "message": "analyst attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "analyst",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 102.39.0.1",
+            "message": "analyst attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "guest_user",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 142.329.219.2",
+            "message": "guest_user attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "guest_user",
+            "action": "FILE_ACCESS",
+            "details": "Attempted confidential.txt from IP 142.329.219.2",
+            "message": "guest_user attempted FILE_ACCESS without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "guest_user",
+            "action": "SUDO_ATTEMPT",
+            "details": "Tried sudo rm -rf /etc/passwd from IP 192.123.32.12",
+            "message": "guest_user attempted SUDO_ATTEMPT without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "guest_user",
+            "action": "FILE_ACCESS",
+            "details": "Attempted confidential.txt from IP 102.39.0.1",
+            "message": "guest_user attempted FILE_ACCESS without permission!"
+        },
+        {
+            "type": "Unauthorized Action",
+            "user": "analyst",
+            "action": "FILE_COPY",
+            "details": "Copied confidential.txt to /tmp from IP 142.329.219.2",
+            "message": "analyst attempted FILE_COPY without permission!"
+        },
+        {
+            "type": "Suspicious Sudo",
+            "user": "intern",
+            "count": 3,
+            "message": "intern attempted sudo 3 times"
+        },
+        {
+            "type": "Suspicious Sudo",
+            "user": "analyst",
+            "count": 3,
+            "message": "analyst attempted sudo 3 times"
+        },
+        {
+            "type": "Suspicious Sudo",
+            "user": "admin",
+            "count": 7,
+            "message": "admin attempted sudo 7 times"
+        },
+        {
+            "type": "Suspicious Sudo",
+            "user": "guest_user",
+            "count": 7,
+            "message": "guest_user attempted sudo 7 times"
+        },
+        {
+            "type": "Suspicious File Activity",
+            "user": "admin",
+            "count": 14,
+            "message": "admin accessed/copied sensitive files 14 times"
+        },
+        {
+            "type": "Suspicious File Activity",
+            "user": "intern",
+            "count": 7,
+            "message": "intern accessed/copied sensitive files 7 times"
+        },
+        {
+            "type": "Suspicious File Activity",
+            "user": "analyst",
+            "count": 6,
+            "message": "analyst accessed/copied sensitive files 6 times"
+        },
+        {
+            "type": "Suspicious File Activity",
+            "user": "guest_user",
+            "count": 3,
+            "message": "guest_user accessed/copied sensitive files 3 times"
+        }
+    ],
+    "Timestamp": "2025-09-03 14:58:14"
+}
